@@ -16,30 +16,40 @@ public class GameMain {
 
     /** Constructor to setup the game */
     public GameMain() {
-        // Perform one-time initialization tasks
-        initGame();
-
-        // Reset the board, currentStatus and currentPlayer
-        newGame();
-
-        // Play the game once
         do {
-            // The currentPlayer makes a move.
-            // Update cells[][] and currentState
-            stepGame();
-            // Refresh the display
-            board.paint();
-            // Print message if game over
-            if (currentState == State.CROSS_WON) {
-                System.out.println("'X' won!\nBye!");
-            } else if (currentState == State.NOUGHT_WON) {
-                System.out.println("'O' won!\nBye!");
-            } else if (currentState == State.DRAW) {
-                System.out.println("It's Draw!\nBye!");
-            }
-            // Switch currentPlayer
-            currentPlayer = (currentPlayer == Seed.CROSS) ? Seed.NOUGHT : Seed.CROSS;
-        } while (currentState == State.PLAYING);  // repeat until game over
+            // Perform one-time initialization tasks
+            initGame();
+
+            // Reset the board, currentStatus and currentPlayer
+            newGame();
+
+            // Play the game once
+            do {
+                // The currentPlayer makes a move.
+                // Update cells[][] and currentState
+                stepGame();
+                // Refresh the display
+                board.paint();
+                // Print message if game over
+                if (currentState == State.CROSS_WON) {
+                    System.out.println("'X' won!\nBye!");
+                } else if (currentState == State.NOUGHT_WON) {
+                    System.out.println("'O' won!\nBye!");
+                } else if (currentState == State.DRAW) {
+                    System.out.println("It's Draw!\nBye!");
+                }
+                // Switch currentPlayer
+                currentPlayer = (currentPlayer == Seed.CROSS) ? Seed.NOUGHT : Seed.CROSS;
+                if (currentState != State.PLAYING) {
+                    System.out.print("Play again (y/n)? ");
+                    char ans = in.next().charAt(0);
+                    if (ans != 'y' && ans != 'Y') {
+                        System.out.println("Bye!");
+                        System.exit(0);  // terminate the program
+                    }
+                }
+            } while (currentState == State.PLAYING);  // repeat until game over
+        } while (true);
     }
 
     /** Perform one-time initialization tasks */
