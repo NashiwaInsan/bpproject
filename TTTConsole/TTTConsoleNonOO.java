@@ -34,6 +34,7 @@ public class TTTConsoleNonOO {
         do {
             // Initialize the board, currentState and currentPlayer
             initGame();
+
             // Play the game once
             do {
                 // currentPlayer makes a move
