@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../TTTConsoleOOSoundEffect/TTTConsoleOOSoundEffect.iml" filepath="$PROJECT_DIR$/../TTTConsoleOOSoundEffect/TTTConsoleOOSoundEffect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TTTConsoleOOWithSoundEffect/TTTConsoleOOWithSoundEffect.iml" filepath="$PROJECT_DIR$/TTTConsoleOOWithSoundEffect/TTTConsoleOOWithSoundEffect.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/bpproject.iml" filepath="$PROJECT_DIR$/.idea/bpproject.iml" />
     </modules>
   </component>
