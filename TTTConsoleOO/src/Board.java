@@ -14,6 +14,50 @@ public class Board {  // save as "Board.java"
     public Board() {
         initGame();
     }
+    public State checkWinner() {
+        // Periksa baris
+        for (int row = 0; row < ROWS; row++) {
+            if (cells[row][0].content != Seed.NO_SEED &&
+                    cells[row][0].content == cells[row][1].content &&
+                    cells[row][1].content == cells[row][2].content) {
+                return (cells[row][0].content == Seed.CROSS) ? State.CROSS_WON : State.NOUGHT_WON;
+            }
+        }
+
+        // Periksa kolom
+        for (int col = 0; col < COLS; col++) {
+            if (cells[0][col].content != Seed.NO_SEED &&
+                    cells[0][col].content == cells[1][col].content &&
+                    cells[1][col].content == cells[2][col].content) {
+                return (cells[0][col].content == Seed.CROSS) ? State.CROSS_WON : State.NOUGHT_WON;
+            }
+        }
+
+        // Periksa diagonal
+        if (cells[0][0].content != Seed.NO_SEED &&
+                cells[0][0].content == cells[1][1].content &&
+                cells[1][1].content == cells[2][2].content) {
+            return (cells[0][0].content == Seed.CROSS) ? State.CROSS_WON : State.NOUGHT_WON;
+        }
+
+        if (cells[0][2].content != Seed.NO_SEED &&
+                cells[0][2].content == cells[1][1].content &&
+                cells[1][1].content == cells[2][0].content) {
+            return (cells[0][2].content == Seed.CROSS) ? State.CROSS_WON : State.NOUGHT_WON;
+        }
+
+        // Periksa apakah masih ada cell kosong
+        for (int row = 0; row < ROWS; row++) {
+            for (int col = 0; col < COLS; col++) {
+                if (cells[row][col].content == Seed.NO_SEED) {
+                    return State.PLAYING;
+                }
+            }
+        }
+
+        // Jika tidak ada pemenang dan tidak ada cell kosong, maka draw
+        return State.DRAW;
+    }
 
     /** Initialize the board (run once) */
     public void initGame() {
