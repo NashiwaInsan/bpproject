@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="32ba130c-70ac-46e6-a1fc-7953d9d79a9e" name="Changes" comment="final">
+      <change afterPath="$PROJECT_DIR$/../TTTConsoleOO/TTTConsoleOO.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTTConsoleOOSoundEffect_SUS/TTTConsoleOOSoundEffect.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTTConsoleOOSoundEffect_SUS/TTTConsoleOOSoundEffect_SUS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTTConsoleOOSoundEffect_SUS/src/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTTConsoleOOSoundEffect_SUS/src/Cell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTTConsoleOOSoundEffect_SUS/src/GameMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTTConsoleOOSoundEffect_SUS/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTTConsoleOOSoundEffect_SUS/src/Seed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTTConsoleOOSoundEffect_SUS/src/SoundEffect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTTConsoleOOSoundEffect_SUS/src/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTTConsoleOOSoundEffect_SUS/src/audio/die.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTTConsoleOOSoundEffect_SUS/src/audio/eatfood.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTTConsoleOOSoundEffect_SUS/src/audio/explode.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTTConsoleOOSoundEffect_SUS/src/images/cross.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTTConsoleOOSoundEffect_SUS/src/images/not.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTTConsoleOOWithoutGraphic/TTTConsoleOOWithoutGraphic.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/bpproject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/bpproject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;NashiwaInsan&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/NashiwaInsan/bpproject.git&quot;,
+    &quot;accountId&quot;: &quot;e2498f0d-b825-4cb3-8c6e-df7533df3c2f&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2yyfi01Wqh7OUaDB7rBvZHGjMyS" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="flattenModules" value="true" />
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.GameManage.executor": "Run",
+    "Application.GameManager.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Nashiwa/IdeaProjects/bpproject",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nashiwa\IdeaProjects\bpproject\FinalProject\lib" />
+      <recent name="C:\Users\Nashiwa\IdeaProjects\bpproject\FinalProject\src" />
+      <recent name="C:\Users\Nashiwa\IdeaProjects\bpproject\FinalProject" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="GameManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GameManager" />
+      <module name="FinalProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GameManager" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="32ba130c-70ac-46e6-a1fc-7953d9d79a9e" name="Changes" comment="" />
+      <created>1750811856872</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750811856872</updated>
+    </task>
+    <task id="LOCAL-00001" summary="final">
+      <option name="closed" value="true" />
+      <created>1750837731541</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1750837731541</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
+  </component>
+</project>
